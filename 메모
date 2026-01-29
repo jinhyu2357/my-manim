@@ -8,11 +8,20 @@ manim -pql testpy/test5.py RunTime
 manim -pql testpy/test6.py MobjectExample
 manim -pql testpy/test7.py ExampleTransform
 manim -pql testpy/test8.py ExampleRotation
+manim -pql testpy/test_LogScaling.py LogScalingExample
+manim -pql testpy/test_axes.py AxesWithDifferentTips
+manim -pql testpy/test_axes_point.py coordinateToPointExample
+manim -pql testpy/ComplexPlane.py coordinateToPointExample
 
 
 
 
 
-manim -pql 1to100.py CountingScene
+
+
+
+
+
+manim -pql testpy/1to100.py CountingScene
 -pql은 저화질
 -pqh는 고화질
