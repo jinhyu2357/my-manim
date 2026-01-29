@@ -21,7 +21,14 @@ manim -pql Eulers_equation/Taylor_Series_Explain.py TaylorSeriesScene
 
 manim -pql Eulers_equation/Eulers_equation_porve.py Eulers_equation_prove
 
-manim -pql Eulers_equation/Taylor_Series_prove.py TaylorByIntegration
-.shift(UP*1)
+manim -pqh Eulers_equation/Taylor_Series_prove.py TaylorByIntegration
+
+
+
+
+
+
+
+
 -pql은 저화질
 -pqh는 고화질
