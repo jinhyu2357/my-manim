@@ -3,6 +3,7 @@ import numpy as np
 import math
 
 class TaylorSeriesScene(Scene):
+    #좌표 축 설정
     def construct(self):
         axes = Axes(
             x_range=[-3, 3, 1],
@@ -15,6 +16,7 @@ class TaylorSeriesScene(Scene):
         labels = axes.get_axis_labels(x_label="x", y_label="y")
         self.play(Create(axes), Write(labels))
 
+
         # 원래 함수 e^x
         equation = MathTex("y = e^x").shift(RIGHT*4 + DOWN*1)
         self.play(Write(equation))
@@ -24,6 +26,14 @@ class TaylorSeriesScene(Scene):
 
         self.play(Create(exp_graph), Write(exp_label))
         self.wait(1)
+
+        note = Text(
+            "We apply Taylor series  as  an example.",
+            font_size=20
+        ).shift(LEFT*3 + UP*2)
+        self.play(Write(note))
+
+
 
         # 테일러 함수
         def taylor_exp(x, n):
@@ -81,3 +91,8 @@ class TaylorSeriesScene(Scene):
 
         self.play(FadeOut(previous_graph))
         self.wait(2)
+        note = Text(
+            "Taylor series makes sense",
+            font_size=20
+        ).shift(LEFT*3)
+        self.play(Write(note))
