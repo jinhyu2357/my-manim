@@ -1,5 +1,4 @@
-예시 manim -pqh main.py CreateCircle
-
+manim -pqh main.py CreateCircle
 manim -pql testpy/test.py SquareToCircle
 manim -pql testpy/test2.py SquareAndCircle
 manim -pql testpy/test3.py AnimatedSquareToCircle
@@ -11,17 +10,16 @@ manim -pql testpy/test8.py ExampleRotation
 manim -pql testpy/test_LogScaling.py LogScalingExample
 manim -pql testpy/test_axes.py AxesWithDifferentTips
 manim -pql testpy/test_axes_point.py coordinateToPointExample
-manim -pql testpy/ComplexPlane.py coordinateToPointExample
-
-
-
-
-
-
-
-
-
-
+manim -pql testpy/ComplexPlane.py ComplexPlaneExample
 manim -pql testpy/1to100.py CountingScene
+manim -pql testpy/graph_x^n.py CoordSysExample
+manim -pql testpy/GetLinesToPoint.py GetLinesToPointExample
+manim -pql testpy/GetArea.py GetAreaExample
+
+
+
+
+
+
 -pql은 저화질
 -pqh는 고화질
