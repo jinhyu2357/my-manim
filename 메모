@@ -1,0 +1,18 @@
+예시 manim -pqh main.py CreateCircle
+
+manim -pql testpy/test.py SquareToCircle
+manim -pql testpy/test2.py SquareAndCircle
+manim -pql testpy/test3.py AnimatedSquareToCircle
+manim -pql testpy/test4.py DifferentRotations
+manim -pql testpy/test5.py RunTime
+manim -pql testpy/test6.py MobjectExample
+manim -pql testpy/test7.py ExampleTransform
+manim -pql testpy/test8.py ExampleRotation
+
+
+
+
+
+manim -pql 1to100.py CountingScene
+-pql은 저화질
+-pqh는 고화질
