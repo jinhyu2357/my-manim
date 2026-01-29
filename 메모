@@ -24,7 +24,8 @@ manim -pql Eulers_equation/Eulers_equation_porve.py Eulers_equation_prove
 manim -pqh Eulers_equation/Taylor_Series_prove.py TaylorByIntegration
 
 
-
+드무아브르 정리
+manim -pqh Formule_de_Moivre.py DeMoivre
 
 
 
