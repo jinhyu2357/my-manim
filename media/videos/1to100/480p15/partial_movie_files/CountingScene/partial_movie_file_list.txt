@@ -1,4 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/coding/manim/manimations/media/videos/1to100/480p15/partial_movie_files/CountingScene/1584795214_1754310298_2641563521.mp4'
-file 'file:C:/coding/manim/manimations/media/videos/1to100/480p15/partial_movie_files/CountingScene/4072820271_2142772981_2732179002.mp4'
-file 'file:C:/coding/manim/manimations/media/videos/1to100/480p15/partial_movie_files/CountingScene/4072820271_1754310298_206598421.mp4'
