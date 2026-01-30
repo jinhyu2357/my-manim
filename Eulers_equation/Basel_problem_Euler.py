@@ -3,7 +3,7 @@ from manim import *
 class EulerBasel(Scene):
     def construct(self):
 
-        title = Text("바젤 문제 증명", font_size=48)
+        title = Text("proof of Basel problem by Euler", font_size=48)
         self.play(Write(title))
         self.wait(1)
         self.play(title.animate.to_edge(UP))
