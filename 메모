@@ -27,7 +27,9 @@ manim -pqh Eulers_equation/Taylor_Series_prove.py TaylorByIntegration
 드무아브르 정리
 manim -pqh Formule_de_Moivre.py DeMoivre
 
-
+바젤문제
+오일러 방식
+manim -pql Eulers_equation/Basel_problem_Euler.py EulerBasel
 
 
 
