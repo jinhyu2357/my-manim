@@ -48,6 +48,8 @@ manim -pql youtube/Wallis_Product.py Wallis_Product
 회전변환 행렬
 manim -pql youtube/Rotation.py Rotation
 
+manim -pql youtube/Rotation_eg.py Rotation
+
 
 -pql은 저화질
 -pqh는 고화질
