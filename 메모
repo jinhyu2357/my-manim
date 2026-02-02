@@ -1,4 +1,4 @@
-manim -pqh main.py CreateCircle
+
 manim -pql testpy/test.py SquareToCircle
 manim -pql testpy/test2.py SquareAndCircle
 manim -pql testpy/test3.py AnimatedSquareToCircle
@@ -16,22 +16,39 @@ manim -pql testpy/graph_x^n.py CoordSysExample
 manim -pql testpy/GetLinesToPoint.py GetLinesToPointExample
 manim -pql testpy/GetArea.py GetAreaExample
 
+
+
+
+
+
+
 오일러 등식 증명 프로젝트
-manim -pql Eulers_equation/Taylor_Series_Explain.py TaylorSeriesScene
+manim -pql youtube/Taylor_Series_Explain.py TaylorSeriesScene
 
-manim -pql Eulers_equation/Eulers_equation_porve.py Eulers_equation_prove
+manim -pql youtube/Eulers_equation_porve.py Eulers_equation_prove
 
-manim -pqh Eulers_equation/Taylor_Series_prove.py TaylorByIntegration
+manim -pqh youtube/Taylor_Series_prove.py TaylorByIntegration
 
 
 드무아브르 정리
-manim -pqh Formule_de_Moivre.py DeMoivre
+manim -pqh youtube/Formule_de_Moivre.py DeMoivre
 
 바젤문제
-오일러 방식
-manim -pql Eulers_equation/Basel_problem_Euler.py EulerBasel
+- 오일러 방식
+manim -pqh youtube/Basel_problem_Euler.py EulerBasel
 
+
+
+월리스 곱
+- 사인함수의 무한곱 방식
+manim -pql youtube/Wallis_Product.py Wallis_Product
+
+
+
+회전변환 행렬
+manim -pql youtube/Rotation.py Rotation
 
 
 -pql은 저화질
 -pqh는 고화질
+
