@@ -51,6 +51,15 @@ manim -pql youtube/Rotation.py Rotation
 manim -pql youtube/Rotation_eg.py Rotation
 
 
--pql은 저화질
--pqh는 고화질
+
+
+기초 미적분 공식증명 모음
+manim -pqh youtube/basic_diff/a^x_diff.py Derivative_ax
+
+
+
+
+
+
+
 
