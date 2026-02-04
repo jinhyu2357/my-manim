@@ -50,11 +50,14 @@ manim -pql youtube/Rotation.py Rotation
 
 manim -pql youtube/Rotation_eg.py Rotation
 
-
+톨레미 정리
+보조선 이용하기
+manim -pqh youtube/Ptolemy.py PtolemyProof
 
 
 기초 미적분 공식증명 모음
-manim -pqh youtube/basic_diff/a^x_diff.py Derivative_ax
+manim -pql youtube/basic_diff/a^x_diff.py Derivative_ax
+
 
 
 
