@@ -52,11 +52,42 @@ manim -pql youtube/Rotation_eg.py Rotation
 
 톨레미 정리
 보조선 이용하기
-manim -pqh youtube/Ptolemy.py PtolemyProof
+manim -pql youtube/Ptolemy_auxiliary_line.py PtolemyProof
+넓이 이용하기
+manim -pql youtube/Ptolemy_area.py PtolemyProof
+사인 정리 & 삼각함수 덧셈정리 이용하기
+manim -pql youtube/Ptolemy_sin.py PtolemyProof
 
 
-기초 미적분 공식증명 모음
+
+
+베르누이 부등식
+manim -pqh youtube/Bernoulli_inequality.py BernoulliInduction
+
+
+
+
+
+기초 미적분 공식 증명 모음
+a^x 미분
 manim -pql youtube/basic_diff/a^x_diff.py Derivative_ax
+
+로그 함수 미분
+
+삼각함수 미분
+
+곱의 함수 미분
+
+분수 함수 미분
+
+
+
+
+
+
+meme
+manim -pqh youtube/meme_math/8andinfinity.py InfinityToEight
+
 
 
 
